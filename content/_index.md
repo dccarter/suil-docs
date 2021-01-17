@@ -1,18 +1,28 @@
 ---
 title: Suil C++ Framework
 ---
+{{< hint danger >}}
+#### Site is still work progress...
+This documentation site is still work in progress. Some links on this site might point to pages that haven't been published yet.
+Use the side menu bar currently to navigate around
+{{< /hint >}}
+
 {{< toc >}}
+
+# Introduction
+**[Suil C++ Framework](https://github.com/dccarter/suil)**
 
 Weirdly named `suil`, a name I derived from a word (`swele`) in my native language which translates to `the best`. This is a project I started back in my student days as a way for me to keep sharpening my `C++` programing skills. The project keeps growing and getting better as I learn new software concepts and the `C++` standard changes. This is a work in progress project that is evolving with time and inspiration from other exciting open source projects.
 
-The purpose of this document is to introduce and document the framework. While going through the documentation, please **heed** to all warnings/advices given as the project tend to use bad programing paradigms that still haunt me from my novice days and needs special attention when using them.
+## Scope
+The purpose of this document is to introduce and document `SCF`. While going through the documentation, please **heed** to all warnings/advices given as the project tend to use bad programing paradigms that still haunt me from my novice days and needs special attention when using them.
 
-## What is `SCF`
+# What is `SCF`
 `SCF` is a software development framework providing various `C++` libraries that can be used to build or quickly prototype
 Linux applications. The framework targets the web applications space by providing re-usable software components that can be assembled into usable web applications without (or with less) effort. Coming from an embedded background, I always thrive for performance and low memory usage and some of the concepts employed in this project were an attempt to either make things faster or to reduce memory usage. Where possible the project avoids depending on complex libraries and provides simpler implementations.
 
 
-### Hello World
+## Hello World
 ```c++
 #include "suil/http/server/endpoint.hpp"
 

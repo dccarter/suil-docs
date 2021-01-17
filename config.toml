@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://dccarter.github.io"
 languageCode = "en-us"
 title = "Suil C++ Framework"
 theme = "hugo-geekdoc"
@@ -16,3 +16,7 @@ disablePathToLower = true
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 9
+
+[params]
+  geekdocRepo = "https://github.com/dccarter/suil-docs"
+  geekdocEditPath = "edit/main/content"

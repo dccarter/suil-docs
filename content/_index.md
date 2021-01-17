@@ -2,7 +2,7 @@
 title: Suil C++ Framework
 ---
 {{< hint danger >}}
-#### Site is still work progress...
+#### Site is still work in progress...
 This documentation site is still work in progress. Some links on this site might point to pages that haven't been published yet.
 Use the side menu bar currently to navigate around
 {{< /hint >}}
